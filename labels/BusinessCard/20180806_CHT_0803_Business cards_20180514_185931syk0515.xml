@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Image>
+	<Width>2988</Width>
+	<Height>3984</Height>
+	<TransformMatrix></TransformMatrix>
+	<RegionOfInterest></RegionOfInterest>
+	<Tool>v2.0.2</Tool>
+	<NextID>42</NextID>
+	<Lines>
+		<Line>
+			<Id>0</Id>
+			<Tag>Printed|Chinese</Tag>
+			<IsConfirm>Yes</IsConfirm>
+			<Confidence>65535</Confidence>
+			<Polygon>744 681 2553 681 2553 813 744 813</Polygon>
+			<PolyType>Rect</PolyType>
+			<Value>保吉生化學股份有限公司</Value>
+			<Recogonition></Recogonition>
+			<Words />
+		</Line>
+		<Line>
+			<Id>1</Id>
+			<Tag>Printed|Chinese</Tag>
+			<IsConfirm>Yes</IsConfirm>
+			<Confidence>65535</Confidence>
+			<Polygon>740 1073 1002 1073 1002 1136 740 1136</Polygon>
+			<PolyType>Rect</PolyType>
+			<Value>業務經理</Value>
+			<Recogonition></Recogonition>
+			<Words />
+		</Line>
+		<Line>
+			<Id>2</Id>
+			<Tag>Printed|Chinese</Tag>
+			<IsConfirm>Yes</IsConfirm>
+			<Confidence>1001</Confidence>
+			<Polygon>744 1346 744 1346 744 1346 744 1346</Polygon>
+			<PolyType>Rect</PolyType>
+			<Value></Value>
+			<Recogonition></Recogonition>
+			<Words />
+		</Line>
+		<Line>
+			<Id>3</Id>
+			<Tag>Printed|Chinese</Tag>
+			<IsConfirm>Yes</IsConfirm>
+			<Confidence>1001</Confidence>
+			<Polygon>744 1338 744 1338 744 1338 744 1338</Polygon>
+			<PolyType>Rect</PolyType>
+			<Value></Value>
+			<Recogonition></Recogonition>
+			<Words />
+		</Line>
+		<Line>
+			<Id>4</Id>
+			<Tag>Printed|Chinese</Tag>
+			<IsConfirm>Yes</IsConfirm>
+			<Confidence>65535</Confidence>
+			<Polygon>740 1193 1488 1193 1488 1341 740 1341</Polygon>
+			<PolyType>Rect</PolyType>
+			<Value>黃 玉 佩</Value>
+			<Recogonition></Recogonition>
+			<Words />
+		</Line>
+		<Line>
+			<Id>8</Id>
+			<Tag>Printed|Chinese</Tag>
+			<IsConfirm>Yes</IsConfirm>
+			<Confidence>0</Confidence>
+			<Polygon>199 1627 195 1552 1750 1570 1753 1644</Polygon>
+			<PolyType>Straight</PolyType>
+			<Value>總公司/235台北縣中和市中山路二段348巷8號10樓</Value>
+			<Recogonition>總公司 / 235 台北 縣 中和市 中 山路 二段 348 巷 8 號 10 樓台</Recogonition>
+			<Words />
+		</Line>
+		<Line>
+			<Id>10</Id>
+			<Tag>Printed|Chinese</Tag>
+			<IsConfirm>Yes</IsConfirm>
+			<Confidence>65535</Confidence>
+			<Polygon>190 1798 193 1727 812 1737 807 1808</Polygon>
+			<PolyType>Straight</PolyType>
+			<Value>統一編號：12342636</Value>
+			<Recogonition></Recogonition>
+			<Words />
+		</Line>
+		<Line>
+			<Id>11</Id>
+			<Tag>Printed|Chinese</Tag>
+			<IsConfirm>Yes</IsConfirm>
+			<Confidence>1001</Confidence>
+			<Polygon>177 1879 177 1879 177 1879 177 1879</Polygon>
+			<PolyType>Rect</PolyType>
+			<Value></Value>
+			<Recogonition></Recogonition>
+			<Words />
+		</Line>
+		<Line>
+			<Id>13</Id>
+			<Tag>Printed|English</Tag>
+			<IsConfirm>Yes</IsConfirm>
+			<Confidence>0</Confidence>
+			<Polygon>187 1815 1108 1815 1108 1890 187 1890</Polygon>
+			<PolyType>Rect</PolyType>
+			<Value>E-mail: hpv@bio-check.com.tw</Value>
+			<Recogonition>E-mail: hpvA bio-check.com.tvw</Recogonition>
+			<Words />
+		</Line>
+		<Line>
+			<Id>14</Id>
+			<Tag>Printed|Chinese</Tag>
+			<IsConfirm>Yes</IsConfirm>
+			<Confidence>0</Confidence>
+			<Polygon>1848 1577 2665 1577 2665 1646 1848 1646</Polygon>
+			<PolyType>Rect</PolyType>
+			<Value>台中 電話/(04)2371-9412</Value>
+			<Recogonition>中 電話 / ( 04 ) 2371-9412</Recogonition>
+			<Words />
+		</Line>
+		<Line>
+			<Id>15</Id>
+			<Tag>Printed|Chinese</Tag>
+			<IsConfirm>Yes</IsConfirm>
+			<Confidence>1001</Confidence>
+			<Polygon>2008 1738 2008 1738 2008 1738 2008 1738</Polygon>
+			<PolyType>Rect</PolyType>
+			<Value></Value>
+			<Recogonition></Recogonition>
+			<Words />
+		</Line>
+		<Line>
+			<Id>16</Id>
+			<Tag>Printed|Chinese</Tag>
+			<IsConfirm>Yes</IsConfirm>
+			<Confidence>65535</Confidence>
+			<Polygon>2018 1661 2666 1661 2666 1732 2018 1732</Polygon>
+			<PolyType>Rect</PolyType>
+			<Value>傳真/(04)2371-9413</Value>
+			<Recogonition></Recogonition>
+			<Words />
+		</Line>
+		<Line>
+			<Id>17</Id>
+			<Tag>Printed|Chinese</Tag>
+			<IsConfirm>Yes</IsConfirm>
+			<Confidence>65535</Confidence>
+			<Polygon>1847 1747 2629 1747 2629 1815 1847 1815</Polygon>
+			<PolyType>Rect</PolyType>
+			<Value>高雄 電話/(07)222-9968</Value>
+			<Recogonition></Recogonition>
+			<Words />
+		</Line>
+		<Line>
+			<Id>23</Id>
+			<Tag>Printed|Chinese</Tag>
+			<IsConfirm>Yes</IsConfirm>
+			<Confidence>0</Confidence>
+			<Polygon>2016 1837 2628 1837 2628 1908 2016 1908</Polygon>
+			<PolyType>Rect</PolyType>
+			<Value>傳真/(07)222-9958</Value>
+			<Recogonition>傳真 / 07 ) 222-9958</Recogonition>
+			<Words />
+		</Line>
+		<Line>
+			<Id>31</Id>
+			<Tag>Printed|DirectionLineChange|NotSure|English</Tag>
+			<IsConfirm>Yes</IsConfirm>
+			<Confidence>65535</Confidence>
+			<Polygon>19 2609 198 2609 198 2800 19 2800</Polygon>
+			<PolyType>Rect</PolyType>
+			<Value>V</Value>
+			<Recogonition></Recogonition>
+			<Words />
+		</Line>
+		<Line>
+			<Id>36</Id>
+			<Tag>Printed|Chinese|NotSure</Tag>
+			<IsConfirm>Yes</IsConfirm>
+			<Confidence>1001</Confidence>
+			<Polygon>-5 367 722 367 722 587 -5 587</Polygon>
+			<PolyType>Rect</PolyType>
+			<Value></Value>
+			<Recogonition></Recogonition>
+			<Words />
+		</Line>
+		<Line>
+			<Id>37</Id>
+			<Tag>Printed|Chinese|NotSure|DirectionLineChange</Tag>
+			<IsConfirm>Yes</IsConfirm>
+			<Confidence>1001</Confidence>
+			<Polygon>0 780 135 780 135 1102 0 1102</Polygon>
+			<PolyType>Rect</PolyType>
+			<Value></Value>
+			<Recogonition></Recogonition>
+			<Words />
+		</Line>
+		<Line>
+			<Id>38</Id>
+			<Tag>Printed|Chinese</Tag>
+			<IsConfirm>Yes</IsConfirm>
+			<Confidence>65535</Confidence>
+			<Polygon>198 1641 1638 1660 1636 1728 198 1710</Polygon>
+			<PolyType>Straight</PolyType>
+			<Value>電話/(02)2246-7799  傳 真/(02)2246-1556</Value>
+			<Recogonition></Recogonition>
+			<Words />
+		</Line>
+		<Line>
+			<Id>39</Id>
+			<Tag>Chinese|Handwriting</Tag>
+			<IsConfirm>Yes</IsConfirm>
+			<Confidence>0</Confidence>
+			<Polygon>1598 1161 2655 1173 2652 1314 1588 1326</Polygon>
+			<PolyType>Straight</PolyType>
+			<Value>手机:0933908346</Value>
+			<Recogonition>手机 : o 似 9083a6</Recogonition>
+			<Words />
+		</Line>
+		<Line>
+			<Id>40</Id>
+			<Tag>Printed</Tag>
+			<IsConfirm>Yes</IsConfirm>
+			<Confidence>0</Confidence>
+			<Polygon>1065 3222 1273 3222 1273 3272 1065 3272</Polygon>
+			<PolyType>Rect</PolyType>
+			<Value>MEDICINE</Value>
+			<Recogonition></Recogonition>
+			<Words />
+		</Line>
+		<Line>
+			<Id>41</Id>
+			<Tag>Printed|NotSure|English</Tag>
+			<IsConfirm>Yes</IsConfirm>
+			<Confidence>1001</Confidence>
+			<Polygon>1078 3291 1312 3291 1312 3394 1078 3394</Polygon>
+			<PolyType>Rect</PolyType>
+			<Value></Value>
+			<Recogonition></Recogonition>
+			<Words />
+		</Line>
+	</Lines>
+	<Paragraphs />
+	<Cells />
+	<Columns />
+</Image>
