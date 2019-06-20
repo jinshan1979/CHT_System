@@ -1,0 +1,63 @@
+﻿.magnify-modal {
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, 0.3);
+}
+
+.magnify-header .magnify-toolbar {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.magnify-stage {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-width: 0;
+}
+
+.magnify-footer .magnify-toolbar {
+    background-color: rgba(0, 0, 0, .5);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.magnify-header,
+.magnify-footer {
+    pointer-events: none;
+}
+
+.magnify-button {
+    pointer-events: auto;
+}
+
+.row-top {
+    margin-top: 16px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    border: 1px solid #96c2f1;
+    background: #eff7ff
+}
+
+.bg-primary {
+    font-size: 12px;
+    padding: 3px 10px;
+    line-height: 25px;
+}
+
+.btn-Save {
+    width: 120px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.image-set {
+    width: 100%;
+    text-align: center;
+}
+
+.magnify-img {
+    width: 100% auto;
+    height: 100% auto;
+    max-height: 500px;
+    max-width: 500px;
+    margin: 0 auto;
+}

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Image>
+  <Width>4032</Width>
+  <Height>3024</Height>
+  <TransformMatrix>
+  </TransformMatrix>
+  <RegionOfInterest>
+  </RegionOfInterest>
+  <Tool>v2.0.2</Tool>
+  <NextID>28</NextID>
+  <Lines>
+    <Line>
+      <Id>14</Id>
+      <Tag>Printed|Chinese</Tag>
+      <IsConfirm>Yes</IsConfirm>
+      <Confidence>0</Confidence>
+      <Polygon>1076 1152 2394 1152 2394 1323 1076 1323</Polygon>
+      <PolyType>Rect</PolyType>
+      <Value>一卡通票證公司_Test</Value>
+      <Recogonition>卡通 票證 公司</Recogonition>
+      <Words />
+    </Line>
+    <Line>
+      <Id>15</Id>
+      <Tag>Printed|English</Tag>
+      <IsConfirm>Yes</IsConfirm>
+      <Confidence>65535</Confidence>
+      <Polygon>1075 1376 2394 1376 2394 1495 1075 1495</Polygon>
+      <PolyType>Rect</PolyType>
+      <Value>iPASS CORPORATION</Value>
+      <Recogonition>
+      </Recogonition>
+      <Words />
+    </Line>
+    <Line>
+      <Id>16</Id>
+      <Tag>Printed|Chinese</Tag>
+      <IsConfirm>Yes</IsConfirm>
+      <Confidence>65535</Confidence>
+      <Polygon>209 1703 3707 1703 3707 1848 209 1848</Polygon>
+      <PolyType>Rect</PolyType>
+      <Value>本卡為無記名式電子票證，採賣斷制方式出售，恕不接受</Value>
+      <Recogonition>
+      </Recogonition>
+      <Words />
+    </Line>
+    <Line>
+      <Id>17</Id>
+      <Tag>Printed|Chinese</Tag>
+      <IsConfirm>Yes</IsConfirm>
+      <Confidence>65535</Confidence>
+      <Polygon>213 1884 3703 1884 3703 2038 213 2038</Polygon>
+      <PolyType>Rect</PolyType>
+      <Value>退卡及退還售價，可使用於交通運輸/小額消費/政府規費</Value>
+      <Recogonition>
+      </Recogonition>
+      <Words />
+    </Line>
+    <Line>
+      <Id>19</Id>
+      <Tag>Printed|Chinese</Tag>
+      <IsConfirm>Yes</IsConfirm>
+      <Confidence>65535</Confidence>
+      <Polygon>214 2087 1281 2087 1281 2233 214 2233</Polygon>
+      <PolyType>Rect</PolyType>
+      <Value>品 名：魔法少女</Value>
+      <Recogonition>
+      </Recogonition>
+      <Words />
+    </Line>
+    <Line>
+      <Id>20</Id>
+      <Tag>Printed|Chinese</Tag>
+      <IsConfirm>Yes</IsConfirm>
+      <Confidence>0</Confidence>
+      <Polygon>223 2268 2424 2268 2424 2426 223 2426</Polygon>
+      <PolyType>Rect</PolyType>
+      <Value>售 價：100元(普通卡 | 內無儲值金)</Value>
+      <Recogonition>售價 : 100 元 ( 普通 卡 1 內 無 儲值 金 )</Recogonition>
+      <Words />
+    </Line>
+    <Line>
+      <Id>21</Id>
+      <Tag>Printed|Chinese</Tag>
+      <IsConfirm>Yes</IsConfirm>
+      <Confidence>0</Confidence>
+      <Polygon>223 2475 2876 2475 2876 2629 223 2629</Polygon>
+      <PolyType>Rect</PolyType>
+      <Value>地址：80665高雄市前鎮區中安路1號4F</Value>
+      <Recogonition>地址 : 80665 高雄市 前 鎮區 口 口 中 安 路 1 號 4F</Recogonition>
+      <Words />
+    </Line>
+    <Line>
+      <Id>23</Id>
+      <Tag>Printed|Chinese</Tag>
+      <IsConfirm>Yes</IsConfirm>
+      <Confidence>65535</Confidence>
+      <Polygon>231 2683 1593 2683 1593 2823 231 2823</Polygon>
+      <PolyType>Rect</PolyType>
+      <Value>客 服：(07)791-2000</Value>
+      <Recogonition>
+      </Recogonition>
+      <Words />
+    </Line>
+    <Line>
+      <Id>24</Id>
+      <Tag>Printed|English</Tag>
+      <IsConfirm>Yes</IsConfirm>
+      <Confidence>0</Confidence>
+      <Polygon>1283 2095 2854 2095 2854 2210 1283 2210</Polygon>
+      <PolyType>Rect</PolyType>
+      <Value>iPASS-DIARY of LOVERS</Value>
+      <Recogonition>PASS - DIARY of LOVERS</Recogonition>
+      <Words />
+    </Line>
+    <Line>
+      <Id>25</Id>
+      <Tag>Printed|Chinese</Tag>
+      <IsConfirm>Yes</IsConfirm>
+      <Confidence>65535</Confidence>
+      <Polygon>2877 2092 3285 2092 3285 2224 2877 2224</Polygon>
+      <PolyType>Rect</PolyType>
+      <Value>一卡通</Value>
+      <Recogonition>
+      </Recogonition>
+      <Words />
+    </Line>
+    <Line>
+      <Id>26</Id>
+      <Tag>Printed|English</Tag>
+      <IsConfirm>Yes</IsConfirm>
+      <Confidence>65535</Confidence>
+      <Polygon>1730 2682 2893 2682 2893 2809 1730 2809</Polygon>
+      <PolyType>Rect</PolyType>
+      <Value>www.i-pass.com.tw</Value>
+      <Recogonition>
+      </Recogonition>
+      <Words />
+    </Line>
+    <Line>
+      <Id>27</Id>
+      <Tag>Printed|Chinese|DirectionLineChange</Tag>
+      <IsConfirm>Yes</IsConfirm>
+      <Confidence>0</Confidence>
+      <Polygon>1648 2651 1673 2651 1673 2787 1648 2787</Polygon>
+      <PolyType>Rect</PolyType>
+      <Value>|</Value>
+      <Recogonition>
+      </Recogonition>
+      <Words />
+    </Line>
+  </Lines>
+  <Paragraphs />
+  <Cells />
+  <Columns />
+</Image>

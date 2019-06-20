@@ -1,0 +1,130 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@model List<CHTSystem.Models.XmlModel>
+
+<link href="~/Scripts/dist/jquery.magnify.css" rel="stylesheet">
+<link href="~/Content/index.css" rel="stylesheet" />
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<div class="container">
+    <div class="row row-top">
+        <div class="col-xs-6">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="image-set">
+                        <a data-magnify="gallery" href="~/File/Images/BusinessCard/@ViewData["imgFile"]">
+                            <img class="magnify-img" src="~/File/Images/BusinessCard/@ViewData["imgFile"]" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <nav aria-label="">
+                        <ul class="pager">
+                            <li>Page：@((int)ViewData["pageIndex"] + 1)/@ViewData["total"] </li>
+                            <li>
+                                @Html.ActionLink("Previous", "Index", new { pageIndex = (int)ViewData["pageIndex"] - 1 })
+                            </li>
+                            <li>
+                                @Html.ActionLink("Next", "Index", new { pageIndex = (int)ViewData["pageIndex"] + 1 })
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-6">
+            <div class="row">
+                <div class="col-xs-12">
+                    <p class="bg-primary" id="filePath">
+                        <b>@ViewData["xmlFile"]</b>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <div style="overflow:scroll;height:450px;overflow-x:hidden">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th width="50%">Text</th>
+                                    <th width="35%">Google AI</th>
+                                    <th width="15%">Hint</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            <textarea name="@item.Id" class="form-control textarea" rows="@((int)item.Value.Length/14+1)">@item.Value</textarea>
+                                        </td>
+                                        <td>@item.Recogonition</td>
+                                        <td>@item.Hint</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12">
+                    <button class="btn btn-default btn-Save" onclick="save()" type="button">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="~/Scripts/dist/jquery.magnify.js"></script>
+<script>
+    $('[data-magnify]').magnify({
+    headToolbar: [
+      'minimize',
+      'maximize',
+      'close'
+    ],
+    footToolbar: [
+        'zoomIn',
+        'zoomOut',
+        'actualSize',
+        'rotateRight'
+    ],
+    modalWidth: 400,
+    modalHeight: 400
+    });
+    function save() {
+        var textareas = document.getElementsByTagName("textarea");
+        var filePath = document.getElementById("filePath");
+        
+
+        var xmls = new Array();
+        for (var i = 0; i < textareas.length; i++){
+            xmls.push({
+                id: textareas[i].name,
+                value: textareas[i].value,
+                hint: filePath.innerText,
+            });
+        }
+        $.ajax({
+            url: '/home/post',
+            type: 'POST',
+            data: JSON.stringify(xmls),
+            dataType: 'json',
+            contentType: 'application/json',
+            success: function (data) {
+                console.log(data);
+            }
+        });
+    }
+</script>
